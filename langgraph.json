@@ -1,0 +1,8 @@
+{
+  "node_version": "20",
+  "dependencies": ["."],
+  "graphs": {
+    "business_trip": "./server.ts:graph"
+  },
+  "env": ".env"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "business-trip-langgraph-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LangGraph demo with GigaChat, conditional edges, tools and human-in-the-loop approval",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "langgraphjs dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.48",
+    "@langchain/langgraph": "^1.4.10",
+    "dotenv": "^16.4.5",
+    "langchain-gigachat": "^0.0.18",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@langchain/langgraph-cli": "^1.4.4",
+    "@types/node": "^26.2.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
